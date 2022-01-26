@@ -1,0 +1,49 @@
+body {
+    background-color: #fca6c9;
+}
+h1 {
+    color: white;
+    text-align: center;
+    padding-bottom: 6px;
+    font-family: sans-serif;
+
+}
+h1:hover{
+    color:  black;
+}
+p {
+    color: white;
+    font-size: smaller;
+    text-align: center;
+    line-height: 20px;
+}
+.nelson {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+div {
+width: 500px;
+margin: auto;
+text-align: left;
+padding-left: 5%;
+font-family: sans-serif;
+line-height: 25px;
+  }
+.center {
+    display: block;
+    margin: 10px ;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.atone {
+    font-size: 30px;
+    line-height: 30px;
+}
+.church {
+    color: black;
+    padding-right: 4em;
+    line-height: 20px;
+    padding-top: 15px;
+}
