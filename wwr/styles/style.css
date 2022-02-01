@@ -63,15 +63,17 @@ h4 {
 }
 footer h3 {
     color: aliceblue;
-    text-decoration: underline;
+    text-decoration: none;
 }
 footer a {
     color: aliceblue;
 }
 footer a:hover {
     color: #042a46d7;
-    text-decoration: underline;
 }
 .icon {
     width: 80px;
+}
+a {
+    text-decoration: none;
 }
