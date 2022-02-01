@@ -33,7 +33,7 @@ header {
     background-color: rgb(0, 0, 0);
 }
 .book, .join {
-    color: 042a46d7;
+    color: #042a46d7;
     text-decoration: none;
 }
 .book:hover, .join:hover {
