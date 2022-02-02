@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(126, 123, 123);
+}
+header {
+
+    padding-bottom: 50px;
+}
+main div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 50px;
+}
+div img{
+    border-radius: 50%;
+    border: 10px solid rgb(80, 78, 78);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+
+
+
+
