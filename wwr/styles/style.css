@@ -30,8 +30,11 @@ font-family: 'Passion One', cursive;
 font-size: 2em;
 margin-top: 10px;
 }
+.logo {
+    width: 80px;
+}
 .msg h4 {
-    font-family: 'Dancing Script',
+font-family: 'Dancing Script'
 }
 #hero-msg h1 {
     text-align: center;
