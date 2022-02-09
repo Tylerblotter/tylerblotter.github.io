@@ -1,0 +1,45 @@
+.glasses {
+    width: 50%;
+}
+main {
+    display: grid;
+    grid-template-columns: .75fr 1fr;
+}
+.text {
+    text-align: center;
+    font-size: 2em;
+    font-family: sans-serif;
+}
+.download {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+.buttons {
+    text-align: left;
+    font-size: 2.5em;
+    font-family: sans-serif;
+}
+.buttons input {
+    width: 90%;
+    padding: 1em;
+    border-radius: 10px;
+}
+.opt {
+    text-align: left;
+    font-size: .8em;
+    border-radius: 10px;
+}
+div {
+    align-items: center;
+}
+button {
+    background: orange;
+    padding: 20px;
+    color: white;
+}
+.subscribe {
+    text-align: center;
+    border-style: none;
+    border-radius: 10px;
+}
