@@ -246,3 +246,64 @@ nav {
         margin-top: 25px;
     }
 }
+/* SUBPAGE*/
+
+.welcome{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#middle_fork{
+    width: 70%;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.salmon_head{
+    text-align: center;
+}
+#gray_canyon{
+    width: 70%;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.gray_head{
+    text-align: center;
+}
+#grand_canyon{
+    width: 83.7%;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.grand_head{
+    text-align: center;
+}
+
+.button-box-now {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: -100px;
+}
+.book_now{
+    background-color: aliceblue;
+    color: #042a46d7;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.book_now:hover{
+    color: #365a7a71;
+    text-decoration: underline;
+}
