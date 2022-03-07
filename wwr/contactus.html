@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Dancing+Script:wght@400;700&family=Passion+One:wght@700&display=swap"
+        rel="stylesheet">    
+    <style>
+
+form{
+    margin:0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+#lists{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+form li + li{
+    margin-top: 1em;
+}
+
+label{
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input,
+textarea{
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus{
+    border-color: #000;
+}
+
+textarea{
+    vertical-align: top;
+    height: 5em;
+}
+.button{
+    padding-left: 90px;
+}
+button{
+    margin-left: .5em;
+}
+    </style>
+</head>
+
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/western_rafters.png" alt="Western Rafters Logo" >
+            </a>
+            <nav class="html_links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rivers.html">Rivers</a></li>
+                    <li> <a href="site-plan-rafting.html">Site Plan</a></li>
+                    <li><a href="contactus.html">Contact US</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <form action="contactus.html" method="post">
+            <ul id="lists">
+             <li>
+               <label for="name">Name:</label>
+               <input type="text" id="name" name="user_name" />
+             </li>
+             <li>
+               <label for="mail">E-mail:</label>
+               <input type="email" id="mail" name="user_email" />
+             </li>
+             <li>
+               <label for="msg">Message:</label>
+               <textarea id="msg" name="user_message"></textarea>
+             </li>
+             <li class="button">
+                <button type="submit">Send your message</button>
+              </li>
+            </ul>
+           </form>
+           
+
+
+        <footer class="social">
+            <h3>Western River Rafters &copy; 2022 - Tyler Blotter</h3>
+            <h3><a href="site-plan-rafting.html">Site Plan</a></h3>
+            <h3><a href="contactus.html">Contact Us</a></h3>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="facebook icon" width="30">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon" width="30">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon" width="30">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
