@@ -62,6 +62,18 @@ textarea{
 button{
     margin-left: .5em;
 }
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    display: none;       
+}
+.moveDown {
+    margin-top: 3em;
+}
     </style>
 </head>
 
@@ -80,7 +92,8 @@ button{
                 </ul>
             </nav>
         </header>
-
+        
+        <div id="feedback"></div>
         <form action="contactus.html" method="post">
             <ul id="lists">
              <li>
@@ -100,6 +113,16 @@ button{
               </li>
             </ul>
            </form>
+           <script>
+            const feedbackElement = document.getElementById('feedback');
+            const formElement = document.forms[0];
+            formElement.addEventListener('submit', function(e) {
+                e.preventDefault();
+                feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+                feedbackElement.style.display = "block";
+                document.body.classList.toggle('moveDown');
+            });
+        </script>
            
 
 
