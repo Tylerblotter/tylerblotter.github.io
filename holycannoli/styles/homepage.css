@@ -50,6 +50,28 @@ header {
 .discription{
     padding-top: 20%;
 }
+.options{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+ul{
+    list-style: none;
+}
+.calander{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.cal{
+    padding-top: 90px;
+    margin-bottom: -15%;
+    margin-left: 50px;
+}
+.sign_up{
+    text-align: center;
+    margin: auto;
+
+}
 footer {
     padding: 25px 50px;
     margin-top: 200px;
