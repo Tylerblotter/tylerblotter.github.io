@@ -101,9 +101,6 @@ ul{
 .instructions{
     text-align: center;
 }
-.instructions :hover{
-    color: white;
-}
 .order{
     display: grid;
     grid-template-columns: 1fr 1fr;
